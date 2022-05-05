@@ -1,0 +1,13 @@
+D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Development\Starfighter1\Definitions.Starfighter1.h
+D:\Starfighter1\Source\Starfighter1\NaveJugador.h
+D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\NaveJugador.generated.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/FloatingPawnMovement.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/PawnMovementComponent.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/NavMovementComponent.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\AI/Navigation/PathFollowingAgentInterface.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PathFollowingAgentInterface.generated.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavMovementComponent.generated.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PawnMovementComponent.generated.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FloatingPawnMovement.generated.h

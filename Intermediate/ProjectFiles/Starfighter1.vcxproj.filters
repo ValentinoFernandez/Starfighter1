@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Starfighter1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{AE55696F-ECCE-4C63-A75F-72ED8F02D583}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Starfighter1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Starfighter1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7792B9DE-0FDE-40AF-81C9-9546779EBD86}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Starfighter1">
+      <UniqueIdentifier>{FAB42915-3E8D-4C8A-9290-313B366E28BD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Starfighter1\EnemigoAcuatico1.cpp">
+      <Filter>Source\Starfighter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Starfighter1\EnemigoAcuatico1.h">
+      <Filter>Source\Starfighter1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Starfighter1\EnemigoAereo1.cpp">
+      <Filter>Source\Starfighter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Starfighter1\EnemigoAereo1.h">
+      <Filter>Source\Starfighter1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Starfighter1\EnemigoAereo2.cpp">
+      <Filter>Source\Starfighter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Starfighter1\EnemigoAereo2.h">
+      <Filter>Source\Starfighter1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Starfighter1\EnemigoAereo3.cpp">
+      <Filter>Source\Starfighter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Starfighter1\EnemigoAereo3.h">
+      <Filter>Source\Starfighter1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Starfighter1\EnemigoTerrestre1.cpp">
+      <Filter>Source\Starfighter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Starfighter1\EnemigoTerrestre1.h">
+      <Filter>Source\Starfighter1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Starfighter1\EnemigoTerrestre2.cpp">
+      <Filter>Source\Starfighter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Starfighter1\EnemigoTerrestre2.h">
+      <Filter>Source\Starfighter1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Starfighter1\NaveJugador.cpp">
+      <Filter>Source\Starfighter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Starfighter1\NaveJugador.h">
+      <Filter>Source\Starfighter1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Starfighter1\NaveJugadorPlayerController.cpp">
+      <Filter>Source\Starfighter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Starfighter1\NaveJugadorPlayerController.h">
+      <Filter>Source\Starfighter1</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Starfighter1\Starfighter1.Build.cs">
+      <Filter>Source\Starfighter1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Starfighter1\Starfighter1.cpp">
+      <Filter>Source\Starfighter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Starfighter1\Starfighter1.h">
+      <Filter>Source\Starfighter1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Starfighter1\Starfighter1GameModeBase.cpp">
+      <Filter>Source\Starfighter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Starfighter1\Starfighter1GameModeBase.h">
+      <Filter>Source\Starfighter1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Starfighter1\\Source\\Starfighter1\\Starfighter1.Build.cs",
+		"D:\\Starfighter1\\Source\\Starfighter1.Target.cs",
+		"D:\\Starfighter1\\Source\\Starfighter1Editor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}

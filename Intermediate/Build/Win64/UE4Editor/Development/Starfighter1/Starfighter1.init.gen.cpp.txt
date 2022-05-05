@@ -1,0 +1,3 @@
+D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Development\Starfighter1\Definitions.Starfighter1.h
+D:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

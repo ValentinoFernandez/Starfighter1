@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Starfighter1",
+			"Path": "D:\\Starfighter1\\Source\\Starfighter1.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Starfighter1Editor",
+			"Path": "D:\\Starfighter1\\Source\\Starfighter1Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
