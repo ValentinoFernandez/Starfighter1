@@ -59,16 +59,20 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveJugador_Statics::NewProp_SM_NaveJugador_MetaData[] = {
 		{ "Category", "NaveJugador" },
+		{ "Comment", "// UPROPERTY permite que lo veas en la paleta de BlulePrints\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "NaveJugador.h" },
+		{ "ToolTip", "UPROPERTY permite que lo veas en la paleta de BlulePrints" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANaveJugador_Statics::NewProp_SM_NaveJugador = { "SM_NaveJugador", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveJugador, SM_NaveJugador), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANaveJugador_Statics::NewProp_SM_NaveJugador_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveJugador_Statics::NewProp_SM_NaveJugador_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveJugador_Statics::NewProp_FloatingMovement_MetaData[] = {
 		{ "Category", "NaveJugador" },
+		{ "Comment", "//permite vestir al actor,\n// manejar los modelos est?ticos\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "NaveJugador.h" },
+		{ "ToolTip", "permite vestir al actor,\n manejar los modelos est?ticos" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANaveJugador_Statics::NewProp_FloatingMovement = { "FloatingMovement", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveJugador, FloatingMovement), Z_Construct_UClass_UFloatingPawnMovement_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANaveJugador_Statics::NewProp_FloatingMovement_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveJugador_Statics::NewProp_FloatingMovement_MetaData)) };
@@ -103,7 +107,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveJugador, 258699779);
+	IMPLEMENT_CLASS(ANaveJugador, 2072778259);
 	template<> STARFIGHTER1_API UClass* StaticClass<ANaveJugador>()
 	{
 		return ANaveJugador::StaticClass();
