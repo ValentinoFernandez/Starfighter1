@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Starfighter1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{436FD024-4D0F-4B57-A541-AF754AC96B70}</UniqueIdentifier>
+      <UniqueIdentifier>{8BE1F7E7-42A4-4AA5-A0A1-991B68FD21CD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Starfighter1.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{4438F9BD-D016-4606-B081-51CE5E938747}</UniqueIdentifier>
+      <UniqueIdentifier>{118CFD5C-0F0A-42AD-A104-7233BB4EB4A1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Starfighter1">
-      <UniqueIdentifier>{9005FF4A-E7B4-42AE-BA7F-406CEB7B283E}</UniqueIdentifier>
+      <UniqueIdentifier>{56EA1A49-2F53-4B0F-A2F2-C575977137AF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Starfighter1\EnemigoAcuatico1.cpp">
       <Filter>Source\Starfighter1</Filter>
@@ -79,10 +79,22 @@
     <ClInclude Include="..\..\Source\Starfighter1\NaveJugadorPlayerController.h">
       <Filter>Source\Starfighter1</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Starfighter1\NaveProyectil.cpp">
+      <Filter>Source\Starfighter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Starfighter1\NaveProyectil.h">
+      <Filter>Source\Starfighter1</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Starfighter1\Proyectil.cpp">
       <Filter>Source\Starfighter1</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Starfighter1\Proyectil.h">
+      <Filter>Source\Starfighter1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Starfighter1\Proyectil1.cpp">
+      <Filter>Source\Starfighter1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Starfighter1\Proyectil1.h">
       <Filter>Source\Starfighter1</Filter>
     </ClInclude>
     <None Include="..\..\Source\Starfighter1\Starfighter1.Build.cs">

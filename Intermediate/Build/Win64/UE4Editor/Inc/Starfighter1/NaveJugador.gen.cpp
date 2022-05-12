@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 	STARFIGHTER1_API UClass* Z_Construct_UClass_ANaveJugador();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_Starfighter1();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UFloatingPawnMovement_NoRegister();
 // End Cross Module References
@@ -33,6 +35,14 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraBoom_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SM_NaveJugador_MetaData[];
 #endif
@@ -57,6 +67,28 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraComponent_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "Comment", "/** The camera */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "NaveJugador.h" },
+		{ "ToolTip", "The camera" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraComponent = { "CameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveJugador, CameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraBoom_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "Comment", "/** Camera boom positioning the camera above the character */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "NaveJugador.h" },
+		{ "ToolTip", "Camera boom positioning the camera above the character" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveJugador, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraBoom_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveJugador_Statics::NewProp_SM_NaveJugador_MetaData[] = {
 		{ "Category", "NaveJugador" },
 		{ "Comment", "// UPROPERTY permite que lo veas en la paleta de BlulePrints\n" },
@@ -77,6 +109,8 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANaveJugador_Statics::NewProp_FloatingMovement = { "FloatingMovement", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveJugador, FloatingMovement), Z_Construct_UClass_UFloatingPawnMovement_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANaveJugador_Statics::NewProp_FloatingMovement_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveJugador_Statics::NewProp_FloatingMovement_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANaveJugador_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveJugador_Statics::NewProp_SM_NaveJugador,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveJugador_Statics::NewProp_FloatingMovement,
 	};
@@ -107,7 +141,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveJugador, 2072778259);
+	IMPLEMENT_CLASS(ANaveJugador, 3490619915);
 	template<> STARFIGHTER1_API UClass* StaticClass<ANaveJugador>()
 	{
 		return ANaveJugador::StaticClass();
