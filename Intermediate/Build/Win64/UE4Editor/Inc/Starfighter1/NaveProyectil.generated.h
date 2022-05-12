@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANaveProyectil); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ANaveProyectil)
 
 
-#define Starfighter1_Source_Starfighter1_NaveProyectil_h_12_PRIVATE_PROPERTY_OFFSET
+#define Starfighter1_Source_Starfighter1_NaveProyectil_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ShipMeshComponent() { return STRUCT_OFFSET(ANaveProyectil, ShipMeshComponent); }
+
+
 #define Starfighter1_Source_Starfighter1_NaveProyectil_h_9_PROLOG
 #define Starfighter1_Source_Starfighter1_NaveProyectil_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

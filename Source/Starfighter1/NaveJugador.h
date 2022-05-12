@@ -2,7 +2,7 @@
 
 #pragma once
 
-//#include "NaveProyectil.h"
+#include "NaveProyectil.h"
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
@@ -11,7 +11,7 @@
 class UFloatingPawnMovement;
 
 UCLASS()
-class STARFIGHTER1_API ANaveJugador : public APawn
+class STARFIGHTER1_API ANaveJugador : public ANaveProyectil
 {
 	GENERATED_BODY()
 
@@ -20,41 +20,44 @@ class STARFIGHTER1_API ANaveJugador : public APawn
 		class UCameraComponent* CameraComponent;
 
 	/** Camera boom positioning the camera above the character */
-	UPROPERTY(Category = Camera, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+		UPROPERTY(Category = Camera, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 		class USpringArmComponent* CameraBoom;
 
 public:
 	// Sets default values for this pawn's properties
 	ANaveJugador();
 
-	// Begin Actor Interface
-//virtual void Tick(float DeltaSeconds) override;
-//virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
+
+  // Begin Actor Interface
+virtual void Tick(float DeltaSeconds) override;
+virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 	// End Actor Interface
 
-	//void Fire();
+	void Fire();
 
 	/* Fire a shot in the specified direction */
-	//void FireShot(FVector FireDirection);
+	void FireShot(FVector FireDirection);
 
 	/* Handler for the fire timer expiry */
-	//void ShotTimerExpired();
+	void ShotTimerExpired();
 
 	/** Offset from the ships location to spawn projectiles */
-	//UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
-		//FVector GunOffset;
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+		FVector GunOffset;
 
 	/* How fast the weapon will fire */
-	//UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
-		//float FireRate;
+	UPROPERTY(Category = Gameplay, EditAnywhere, BlueprintReadWrite)
+		float FireRate;
 
 
 	/** Returns CameraComponent subobject **/
-//	FORCEINLINE class UCameraComponent* GetCameraComponent() const { return CameraComponent; }
+	FORCEINLINE class UCameraComponent* GetCameraComponent() const { return CameraComponent; }
 	/** Returns CameraBoom subobject **/
-//	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	
+	virtual void MoverHorizontal(float AxisValue);
 
+	virtual void MoverVertical(float AxisValue);
 
 protected:
 	// Called when the game starts or when spawned
@@ -69,24 +72,20 @@ protected:
 
 public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	//virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	virtual void MoverHorizontal(float AxisValue);
-
-	virtual void MoverVertical(float AxisValue);
+//	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
 
 	/* Flag to control firing  */
-	//uint32 bCanFire : 1;
+	uint32 bCanFire : 1;
 
 	/** Handle for efficient management of ShotTimerExpired timer */
-//	FTimerHandle TimerHandle_ShotTimerExpired;
+	FTimerHandle TimerHandle_ShotTimerExpired;
 
-	//float FireForwardValue;
-	//float FireRightValue;
+	float FireForwardValue;
+	float FireRightValue;
 
 };

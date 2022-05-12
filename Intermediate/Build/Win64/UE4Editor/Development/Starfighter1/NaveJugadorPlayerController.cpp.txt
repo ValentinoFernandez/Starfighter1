@@ -15,4 +15,6 @@ D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.
 D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Camera/CameraActor.h
 D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraActor.generated.h
 D:\Starfighter1\Source\Starfighter1\NaveJugador.h
+D:\Starfighter1\Source\Starfighter1\NaveProyectil.h
+D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\NaveProyectil.generated.h
 D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\NaveJugador.generated.h

@@ -2,4 +2,6 @@ D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Development\Starfighter1\Defi
 D:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 D:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 D:\Starfighter1\Source\Starfighter1/NaveJugador.h
+D:\Starfighter1\Source\Starfighter1\NaveProyectil.h
+D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\NaveProyectil.generated.h
 D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\NaveJugador.generated.h

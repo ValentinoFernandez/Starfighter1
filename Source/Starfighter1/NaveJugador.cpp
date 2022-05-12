@@ -3,14 +3,14 @@
 
 #include "NaveJugador.h"
 
-/*#include "Proyectil.h"
+#include "Proyectil1.h"
 
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Engine/World.h"
-*/
+
 
 #include "GameFramework/FloatingPawnMovement.h"	 //Incluye librería para proporcionar movimientos simples para la clase Peon 
 #include "Components/StaticMeshComponent.h"
@@ -41,7 +41,7 @@ ANaveJugador::ANaveJugador()// El constructor es la funcion que se llama igual q
 
 	/////////////////////////////////////////////////////////
 
-/*	// Create a camera boom...
+		// Create a camera boom...
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
 	CameraBoom->SetUsingAbsoluteRotation(true); // Don't want arm to rotate when ship does
@@ -73,8 +73,7 @@ ANaveJugador::ANaveJugador()// El constructor es la funcion que se llama igual q
 	// Spawn projectile at an offset from this pawn
 	const FVector SpawnLocation = GetActorLocation() + FireRotation.RotateVector(GunOffset);
 	
-	*/
-
+	
 }
 // Called when the game starts or when spawned
 void ANaveJugador::BeginPlay()
@@ -84,11 +83,11 @@ void ANaveJugador::BeginPlay()
 }
 
 // Called every frame
-void ANaveJugador::Tick(float DeltaTime)
+void ANaveJugador::Tick(float DeltaSeconds)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(DeltaSeconds);
 
-	/*
+	
 	// Find movement direction
 	const float ForwardValue = GetInputAxisValue(MoveForwardBinding);
 	const float RightValue = GetInputAxisValue(MoveRightBinding);
@@ -123,7 +122,7 @@ void ANaveJugador::Tick(float DeltaTime)
 			RootComponent->MoveComponent(Deflection, NewRotation, true);
 		}
 	}
-	*/
+	
 }
 
 // Called to bind functionality to input
@@ -131,14 +130,14 @@ void ANaveJugador::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 {
 	//Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-/*	check(PlayerInputComponent);
+	check(PlayerInputComponent);
 
 	// set up gameplay key bindings
 	PlayerInputComponent->BindAxis(MoveForwardBinding);
 	PlayerInputComponent->BindAxis(MoveRightBinding);
 	//PlayerInputComponent->BindAction(Fire)
 	InputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &ANaveJugador::Fire);
-	*/
+
 
 }
 
@@ -156,7 +155,7 @@ void ANaveJugador::MoverVertical(float AxisValue)
 
 //////////////////////////////
 
-/*
+
 void ANaveJugador::Fire() {
 	bCanFire = true;
 	UE_LOG(LogTemp, Warning, TEXT("Se presiono la barra espaciadora"));
@@ -186,7 +185,7 @@ void ANaveJugador::FireShot(FVector FireDirection)
 		if (World != nullptr)
 		{
 			// spawn the projectile
-			World->SpawnActor<AProyectil>(SpawnLocation, FireRotation);
+			World->SpawnActor<AProyectil1>(SpawnLocation, FireRotation);
 			//UE_LOG(LogTemp, Warning, TEXT("SpawnLocation(X, Y) = %s, %s FireRotation(X, Y) =  s, s"), SpawnLocation.X, SpawnLocation.Y);
 			//UE_LOG(LogTemp, Warning, TEXT("World not nullptr"));
 		}
@@ -195,10 +194,10 @@ void ANaveJugador::FireShot(FVector FireDirection)
 
 		//bCanFire = false;
 		World->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &ANaveJugador::ShotTimerExpired, FireRate);
+	}
+}	// try and play the sound if specified
 
-		// try and play the sound if specified
-
-	/*	if (FireSound != nullptr)
+	/*if (FireSound != nullptr)
 		{
 			UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
 		}*/
@@ -211,5 +210,7 @@ void ANaveJugador::FireShot(FVector FireDirection)
 void ANaveJugador::ShotTimerExpired()
 {
 	bCanFire = true;
-}
-*/
+	}
+	*/
+	
+

@@ -1,2 +1,7 @@
 D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Development\Starfighter1\Definitions.Starfighter1.h
 D:\Starfighter1\Source\Starfighter1\Proyectil1.h
+D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\Proyectil1.generated.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h

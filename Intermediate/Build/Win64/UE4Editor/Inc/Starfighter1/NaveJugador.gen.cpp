@@ -15,10 +15,11 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 // Cross Module References
 	STARFIGHTER1_API UClass* Z_Construct_UClass_ANaveJugador_NoRegister();
 	STARFIGHTER1_API UClass* Z_Construct_UClass_ANaveJugador();
-	ENGINE_API UClass* Z_Construct_UClass_APawn();
+	STARFIGHTER1_API UClass* Z_Construct_UClass_ANaveProyectil();
 	UPackage* Z_Construct_UPackage__Script_Starfighter1();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UFloatingPawnMovement_NoRegister();
 // End Cross Module References
@@ -44,6 +45,14 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GunOffset_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_GunOffset;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_FireRate;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SM_NaveJugador_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SM_NaveJugador;
@@ -56,7 +65,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_ANaveJugador_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_APawn,
+		(UObject* (*)())Z_Construct_UClass_ANaveProyectil,
 		(UObject* (*)())Z_Construct_UPackage__Script_Starfighter1,
 	};
 #if WITH_METADATA
@@ -89,6 +98,24 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraBoom = { "CameraBoom", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveJugador, CameraBoom), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraBoom_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraBoom_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveJugador_Statics::NewProp_GunOffset_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "Comment", "/** Offset from the ships location to spawn projectiles */" },
+		{ "ModuleRelativePath", "NaveJugador.h" },
+		{ "ToolTip", "Offset from the ships location to spawn projectiles" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ANaveJugador_Statics::NewProp_GunOffset = { "GunOffset", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveJugador, GunOffset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ANaveJugador_Statics::NewProp_GunOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveJugador_Statics::NewProp_GunOffset_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveJugador_Statics::NewProp_FireRate_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "Comment", "/* How fast the weapon will fire */" },
+		{ "ModuleRelativePath", "NaveJugador.h" },
+		{ "ToolTip", "How fast the weapon will fire" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ANaveJugador_Statics::NewProp_FireRate = { "FireRate", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANaveJugador, FireRate), METADATA_PARAMS(Z_Construct_UClass_ANaveJugador_Statics::NewProp_FireRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANaveJugador_Statics::NewProp_FireRate_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveJugador_Statics::NewProp_SM_NaveJugador_MetaData[] = {
 		{ "Category", "NaveJugador" },
 		{ "Comment", "// UPROPERTY permite que lo veas en la paleta de BlulePrints\n" },
@@ -111,6 +138,8 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANaveJugador_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveJugador_Statics::NewProp_CameraBoom,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveJugador_Statics::NewProp_GunOffset,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveJugador_Statics::NewProp_FireRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveJugador_Statics::NewProp_SM_NaveJugador,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANaveJugador_Statics::NewProp_FloatingMovement,
 	};
@@ -141,7 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveJugador() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveJugador, 3490619915);
+	IMPLEMENT_CLASS(ANaveJugador, 2759121279);
 	template<> STARFIGHTER1_API UClass* StaticClass<ANaveJugador>()
 	{
 		return ANaveJugador::StaticClass();

@@ -21,7 +21,7 @@ private: \
 	static void StaticRegisterNativesANaveJugador(); \
 	friend struct Z_Construct_UClass_ANaveJugador_Statics; \
 public: \
-	DECLARE_CLASS(ANaveJugador, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Starfighter1"), NO_API) \
+	DECLARE_CLASS(ANaveJugador, ANaveProyectil, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Starfighter1"), NO_API) \
 	DECLARE_SERIALIZER(ANaveJugador)
 
 
@@ -30,7 +30,7 @@ private: \
 	static void StaticRegisterNativesANaveJugador(); \
 	friend struct Z_Construct_UClass_ANaveJugador_Statics; \
 public: \
-	DECLARE_CLASS(ANaveJugador, APawn, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Starfighter1"), NO_API) \
+	DECLARE_CLASS(ANaveJugador, ANaveProyectil, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Starfighter1"), NO_API) \
 	DECLARE_SERIALIZER(ANaveJugador)
 
 

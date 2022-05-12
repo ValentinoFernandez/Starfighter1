@@ -85,12 +85,6 @@
     <ClInclude Include="..\..\Source\Starfighter1\NaveProyectil.h">
       <Filter>Source\Starfighter1</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Starfighter1\Proyectil.cpp">
-      <Filter>Source\Starfighter1</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Starfighter1\Proyectil.h">
-      <Filter>Source\Starfighter1</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\Starfighter1\Proyectil1.cpp">
       <Filter>Source\Starfighter1</Filter>
     </ClCompile>

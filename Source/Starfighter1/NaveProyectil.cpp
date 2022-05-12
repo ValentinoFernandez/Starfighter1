@@ -3,11 +3,27 @@
 
 #include "NaveProyectil.h"
 
+#include "Components/StaticMeshComponent.h"
+#include "Engine/CollisionProfile.h"
+#include "UObject/ConstructorHelpers.h"
+
+const FName ANaveProyectil::MoveForwardBinding("MoveForward");
+const FName ANaveProyectil::MoveRightBinding("MoveRight");
+const FName ANaveProyectil::FireBinding("Fire");
+
 // Sets default values
 ANaveProyectil::ANaveProyectil()
 {
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> ShipMesh(TEXT("/Game/TwinStick/Meshes/TwinStickUFO.TwinStickUFO"));
+
+	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	ShipMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ShipMesh"));
+	RootComponent = ShipMeshComponent;
+	ShipMeshComponent->SetCollisionProfileName(UCollisionProfile::Pawn_ProfileName);
+	ShipMeshComponent->SetStaticMesh(ShipMesh.Object);
 
 }
 

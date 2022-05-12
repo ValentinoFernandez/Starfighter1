@@ -4,8 +4,6 @@
 #include "Proyectil1.h"
 
 
-/*
-
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Components/StaticMeshComponent.h"
@@ -13,7 +11,7 @@
 #include "Engine/StaticMesh.h"
 
 // Sets default values
-AProyectil::AProyectil()
+AProyectil1::AProyectil1()
 {
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ProjectileMeshAsset(TEXT("/Game/TwinStick/Meshes/TwinStickProjectile.TwinStickProjectile"));
@@ -25,7 +23,7 @@ AProyectil::AProyectil()
 	ProjectileMesh->SetStaticMesh(ProjectileMeshAsset.Object);
 	ProjectileMesh->SetupAttachment(RootComponent);
 	ProjectileMesh->BodyInstance.SetCollisionProfileName("Projectile");
-	ProjectileMesh->OnComponentHit.AddDynamic(this, &AProyectil::OnHit);		// set up a notification for when this component hits something
+	ProjectileMesh->OnComponentHit.AddDynamic(this, &AProyectil1::OnHit);		// set up a notification for when this component hits something
 	RootComponent = ProjectileMesh;
 
 	// Use a ProjectileMovementComponent to govern this projectile's movement
@@ -67,4 +65,3 @@ void AProyectil1::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimi
 
 	Destroy();
 }
-*/
