@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Starfighter1",
-			"Path": "D:\\Starfighter1\\Source\\Starfighter1.Target.cs",
+			"Path": "D:\\src_SIS457_estudiantes\\Starfighter1\\Source\\Starfighter1.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "Starfighter1Editor",
-			"Path": "D:\\Starfighter1\\Source\\Starfighter1Editor.Target.cs",
+			"Path": "D:\\src_SIS457_estudiantes\\Starfighter1\\Source\\Starfighter1Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]

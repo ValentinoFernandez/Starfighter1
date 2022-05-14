@@ -39,7 +39,7 @@ public: \
 	NO_API ANaveProyectil(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANaveProyectil) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANaveProyectil); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANaveProyectil); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANaveProyectil); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ANaveProyectil(ANaveProyectil&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API ANaveProyectil(const ANaveProyectil&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANaveProyectil); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANaveProyectil); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANaveProyectil); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ANaveProyectil)
 
 

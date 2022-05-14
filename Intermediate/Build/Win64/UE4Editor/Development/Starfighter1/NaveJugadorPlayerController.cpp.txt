@@ -1,20 +1,18 @@
-D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Development\Starfighter1\Definitions.Starfighter1.h
-D:\Starfighter1\Source\Starfighter1\NaveJugadorPlayerController.h
-D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\NaveJugadorPlayerController.generated.h
-D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
-D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
-D:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
-D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
-D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
-D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
-D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
-D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
-D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
-D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
-D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
-D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Camera/CameraActor.h
-D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraActor.generated.h
-D:\Starfighter1\Source\Starfighter1\NaveJugador.h
-D:\Starfighter1\Source\Starfighter1\NaveProyectil.h
-D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\NaveProyectil.generated.h
-D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\NaveJugador.generated.h
+D:\src_SIS457_estudiantes\Starfighter1\Intermediate\Build\Win64\UE4Editor\Development\Starfighter1\Definitions.Starfighter1.h
+D:\src_SIS457_estudiantes\Starfighter1\Source\Starfighter1\NaveJugadorPlayerController.h
+D:\src_SIS457_estudiantes\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\NaveJugadorPlayerController.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraActor.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraActor.generated.h
+D:\src_SIS457_estudiantes\Starfighter1\Source\Starfighter1\NaveJugador.h
+D:\src_SIS457_estudiantes\Starfighter1\Source\Starfighter1\NaveProyectil.h
+D:\src_SIS457_estudiantes\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\NaveProyectil.generated.h
+D:\src_SIS457_estudiantes\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\NaveJugador.generated.h

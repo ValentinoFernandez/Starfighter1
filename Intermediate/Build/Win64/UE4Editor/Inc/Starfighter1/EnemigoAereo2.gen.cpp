@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemigoAereo2() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemigoAereo2, 3633087261);
+	IMPLEMENT_CLASS(AEnemigoAereo2, 3834878634);
 	template<> STARFIGHTER1_API UClass* StaticClass<AEnemigoAereo2>()
 	{
 		return AEnemigoAereo2::StaticClass();

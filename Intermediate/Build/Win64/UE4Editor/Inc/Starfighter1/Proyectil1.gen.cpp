@@ -207,7 +207,7 @@ void EmptyLinkFunctionForGeneratedCodeProyectil1() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProyectil1, 878139823);
+	IMPLEMENT_CLASS(AProyectil1, 3352907951);
 	template<> STARFIGHTER1_API UClass* StaticClass<AProyectil1>()
 	{
 		return AProyectil1::StaticClass();

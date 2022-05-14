@@ -39,7 +39,7 @@ public: \
 	NO_API AStarfighter1GameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStarfighter1GameModeBase) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AStarfighter1GameModeBase); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStarfighter1GameModeBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStarfighter1GameModeBase); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AStarfighter1GameModeBase(AStarfighter1GameModeBase&&); \
@@ -56,7 +56,7 @@ private: \
 	NO_API AStarfighter1GameModeBase(const AStarfighter1GameModeBase&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AStarfighter1GameModeBase); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStarfighter1GameModeBase); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStarfighter1GameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStarfighter1GameModeBase)
 
 

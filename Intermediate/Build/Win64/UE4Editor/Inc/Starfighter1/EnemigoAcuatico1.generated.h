@@ -39,7 +39,7 @@ public: \
 	NO_API AEnemigoAcuatico1(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemigoAcuatico1) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEnemigoAcuatico1); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoAcuatico1); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoAcuatico1); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemigoAcuatico1(AEnemigoAcuatico1&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API AEnemigoAcuatico1(const AEnemigoAcuatico1&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEnemigoAcuatico1); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoAcuatico1); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoAcuatico1); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemigoAcuatico1)
 
 

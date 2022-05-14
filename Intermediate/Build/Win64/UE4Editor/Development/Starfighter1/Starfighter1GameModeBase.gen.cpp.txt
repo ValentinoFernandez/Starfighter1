@@ -1,9 +1,9 @@
-D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Development\Starfighter1\Definitions.Starfighter1.h
-D:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\Starfighter1\Source\Starfighter1/Starfighter1GameModeBase.h
-D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\Starfighter1GameModeBase.generated.h
+D:\src_SIS457_estudiantes\Starfighter1\Intermediate\Build\Win64\UE4Editor\Development\Starfighter1\Definitions.Starfighter1.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\src_SIS457_estudiantes\Starfighter1\Source\Starfighter1/Starfighter1GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\src_SIS457_estudiantes\Starfighter1\Intermediate\Build\Win64\UE4Editor\Inc\Starfighter1\Starfighter1GameModeBase.generated.h

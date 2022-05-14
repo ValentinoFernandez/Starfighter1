@@ -47,7 +47,7 @@ public: \
 	NO_API ANaveJugadorPlayerController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ANaveJugadorPlayerController) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANaveJugadorPlayerController); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANaveJugadorPlayerController); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANaveJugadorPlayerController); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ANaveJugadorPlayerController(ANaveJugadorPlayerController&&); \
@@ -62,7 +62,7 @@ private: \
 	NO_API ANaveJugadorPlayerController(const ANaveJugadorPlayerController&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ANaveJugadorPlayerController); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANaveJugadorPlayerController); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ANaveJugadorPlayerController); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ANaveJugadorPlayerController)
 
 

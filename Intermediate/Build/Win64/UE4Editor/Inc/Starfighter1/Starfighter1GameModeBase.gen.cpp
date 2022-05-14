@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeStarfighter1GameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStarfighter1GameModeBase, 1593007939);
+	IMPLEMENT_CLASS(AStarfighter1GameModeBase, 1746735484);
 	template<> STARFIGHTER1_API UClass* StaticClass<AStarfighter1GameModeBase>()
 	{
 		return AStarfighter1GameModeBase::StaticClass();

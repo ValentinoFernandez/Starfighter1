@@ -1,2 +1,2 @@
-D:\Starfighter1\Intermediate\Build\Win64\UE4Editor\Development\Starfighter1\Definitions.Starfighter1.h
-D:\Starfighter1\Source\Starfighter1\Starfighter1.h
+D:\src_SIS457_estudiantes\Starfighter1\Intermediate\Build\Win64\UE4Editor\Development\Starfighter1\Definitions.Starfighter1.h
+D:\src_SIS457_estudiantes\Starfighter1\Source\Starfighter1\Starfighter1.h

@@ -39,7 +39,7 @@ public: \
 	NO_API AEnemigoTerrestre1(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemigoTerrestre1) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEnemigoTerrestre1); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoTerrestre1); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoTerrestre1); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemigoTerrestre1(AEnemigoTerrestre1&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API AEnemigoTerrestre1(const AEnemigoTerrestre1&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEnemigoTerrestre1); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoTerrestre1); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoTerrestre1); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemigoTerrestre1)
 
 

@@ -39,7 +39,7 @@ public: \
 	NO_API AEnemigoAereo2(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemigoAereo2) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEnemigoAereo2); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoAereo2); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoAereo2); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemigoAereo2(AEnemigoAereo2&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API AEnemigoAereo2(const AEnemigoAereo2&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEnemigoAereo2); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoAereo2); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemigoAereo2); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEnemigoAereo2)
 
 

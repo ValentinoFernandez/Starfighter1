@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeStarfighter1_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xA0271BD7,
+				0x1FB0CA40,
 				0xF0013811,
 				METADATA_PARAMS(nullptr, 0)
 			};

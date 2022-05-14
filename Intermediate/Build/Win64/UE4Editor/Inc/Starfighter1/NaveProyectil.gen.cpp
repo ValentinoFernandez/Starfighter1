@@ -118,7 +118,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveProyectil() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveProyectil, 35441539);
+	IMPLEMENT_CLASS(ANaveProyectil, 1401330320);
 	template<> STARFIGHTER1_API UClass* StaticClass<ANaveProyectil>()
 	{
 		return ANaveProyectil::StaticClass();

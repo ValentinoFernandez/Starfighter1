@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\Starfighter1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8BE1F7E7-42A4-4AA5-A0A1-991B68FD21CD}</UniqueIdentifier>
+      <UniqueIdentifier>{EE179A26-22B6-4DF2-BED4-EBAC406145F9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Starfighter1.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{118CFD5C-0F0A-42AD-A104-7233BB4EB4A1}</UniqueIdentifier>
+      <UniqueIdentifier>{A06F9A8C-2A96-4179-B1C1-2266DEC3E10A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Starfighter1">
-      <UniqueIdentifier>{56EA1A49-2F53-4B0F-A2F2-C575977137AF}</UniqueIdentifier>
+      <UniqueIdentifier>{C3FD9F8D-989A-45CA-8FDF-49FBB227AA57}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Starfighter1\EnemigoAcuatico1.cpp">
       <Filter>Source\Starfighter1</Filter>

@@ -177,10 +177,11 @@ void ANaveJugador::FireShot(FVector FireDirection)
 		// If we are pressing fire stick in a direction
 		//if (FireDirection.SizeSquared() > 0.0f)
 		//{
+		
 		const FRotator FireRotation = FireDirection.Rotation();
 		// Spawn projectile at an offset from this pawn
 		const FVector SpawnLocation = GetActorLocation() + FireRotation.RotateVector(GunOffset);
-
+		
 		UWorld* const World = GetWorld();
 		if (World != nullptr)
 		{
@@ -189,13 +190,13 @@ void ANaveJugador::FireShot(FVector FireDirection)
 			//UE_LOG(LogTemp, Warning, TEXT("SpawnLocation(X, Y) = %s, %s FireRotation(X, Y) =  s, s"), SpawnLocation.X, SpawnLocation.Y);
 			//UE_LOG(LogTemp, Warning, TEXT("World not nullptr"));
 		}
-
+		
 
 
 		//bCanFire = false;
 		World->GetTimerManager().SetTimer(TimerHandle_ShotTimerExpired, this, &ANaveJugador::ShotTimerExpired, FireRate);
-	}
-}	// try and play the sound if specified
+	
+	// try and play the sound if specified
 
 	/*if (FireSound != nullptr)
 		{
@@ -204,13 +205,13 @@ void ANaveJugador::FireShot(FVector FireDirection)
 
 	//	bCanFire = false;
 		//}
-	/*}
+	}
 }
 
 void ANaveJugador::ShotTimerExpired()
 {
 	bCanFire = true;
 	}
-	*/
+	
 	
 
